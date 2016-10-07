@@ -1,0 +1,24 @@
+<configuration>
+  <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>127.0.0.1</value>
+  </property>
+  <property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://127.0.0.1:54310/hbase</value>
+  </property>
+  <property>
+    <name>hbase.tmp.dir</name>
+    <value>/root/hbase/tmp</value>
+  </property>
+  <property>
+    <name>hbase.master.info.port</name>
+    <value>60010</value>
+    <description>The port for the HBase Master web UI.
+    Set to -1 if you do not want a UI instance run.</description>
+  </property>
+  <property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+  </property>
+</configuration>
